@@ -29,7 +29,7 @@ function App() {
 
 
   return (
-    <div className="coin-pp">
+    <div className="coin-app">
       <div className="coin-search">
       <h1 className='coin-text'>Search a currency</h1> 
              <form>
@@ -37,6 +37,24 @@ function App() {
         </form>
        
       </div>
+      <div className="coin-row head">
+                <div className="coin">
+                    <h1> name </h1>
+                    <p className="coin-symbol">symbol</p>
+                </div>
+                <div className="coin-data">
+                    <p className="coin-price">Current Price</p>
+                    <p className="coin-volume">Total Volume</p>
+                              <p className="coin-percent">Percentage change (24h)</p>
+
+
+
+                        <p class="market-cap">Market Cap</p>
+
+
+                </div>
+            </div>
+
       
       {
         filteredCoins.map(coin=>{

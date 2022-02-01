@@ -21,7 +21,7 @@ const Coin= ({name,image,symbol,volume,price,priceChange,marketCap}) =>{
 
 
                         } 
-                        <p class="market-cap">Mkt Cap :$ {marketCap.toLocaleString()}</p>
+                        <p class="market-cap">$ {marketCap.toLocaleString()}</p>
 
 
                 </div>
